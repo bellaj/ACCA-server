@@ -1,0 +1,37 @@
+{
+  "name": "nodepki",
+  "version": "0.2.0",
+  "description": "NodeJS-based PKI server for x509 certificate management.",
+  "author": "Thomas Leister <thomas.leister@mailbox.org>",
+  "license": "MIT",
+  "keywords": [
+    "x509",
+    "pki",
+    "ca"
+  ],
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"There is no test.\" && exit 0;"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ThomasLeister/nodepki.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ThomasLeister/nodepki/issues"
+  },
+  "dependencies": {
+    "express": "4.x",
+    "js-yaml": "3.x",
+    "body-parser": "1.x",
+    "uuid": "3.x",
+    "fancy-log": "1.x",
+    "ajv": "4.x",
+    "fs-extra": "2.0.x",
+    "figlet": "1.2.x",
+    "command-exists": "1.2.x",
+    "yargs": "6.6.x"
+  },
+  "homepage": "https://github.com/ThomasLeister/nodepki#readme",
+  "devDependencies": {}
+}
